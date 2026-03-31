@@ -30,6 +30,7 @@ safe-outputs:
     allowed-files:
       - ".github/uvs.csv"
       - ".github/views.csv"
+    github-token: ${{ secrets.GH_AW_GITHUB_TOKEN }}
 ---
 
 # Collect Weekly Repo Traffic
